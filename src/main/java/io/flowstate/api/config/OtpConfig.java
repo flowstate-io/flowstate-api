@@ -1,5 +1,6 @@
 package io.flowstate.api.config;
 
+import io.flowstate.api.service.OtpService;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;

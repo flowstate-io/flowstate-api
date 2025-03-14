@@ -13,6 +13,9 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+import static io.flowstate.api.exception.ErrorType.UNAUTHORIZED;
+import static io.flowstate.api.exception.ProblemDetailBuilder.forStatus;
+
 @Component
 @RequiredArgsConstructor
 @Slf4j
